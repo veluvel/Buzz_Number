@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzz Number</title>
+</head>
+<body>
+    
+    <h1>Buzz Number</h1>
+    <h2 style="color: red;">To check whether the given number is buzz number or not ?</h2>
+    <p>A number is said to be Buzz Number if it ends with 7 OR is divisible by 7.</p>
+
+    <h4>INSPECT AND CHECK CONSOLE</h4>
+    
+    <script>
+        let buzz = parseInt(prompt("Enter the Number"));
+        if(buzz%10==7 || buzz%7==0){
+            alert("This Num " + buzz + " is a Buzz Number");
+        }
+        else{
+            alert("This not a Buzz Number")
+        }
+    </script>
+
+
+</body>
+</html>
